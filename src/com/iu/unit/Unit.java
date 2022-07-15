@@ -6,7 +6,10 @@ public abstract class Unit {
 	private int hp;
 	private String color;
 	private String name;
-	private int wings;
+	
+	public Unit() {
+		
+	}
 	
 	public Unit(int hp) {
 		System.out.println("Super 생성자");
@@ -15,6 +18,9 @@ public abstract class Unit {
 	
 	//
 	public abstract void move();
+	
+	//
+	public abstract void attack();
 	
 	public void info() {
 		System.out.println("Super Info");
