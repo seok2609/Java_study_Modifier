@@ -3,6 +3,7 @@ package com.iu.ex1;
 public class Ex1Main {
 
 	public static void main(String[] args) {
+		//싱글톤 (디자인 패턴)
 		
 		Iu iu = Iu.getInstance();
 		iu.setName("noze");
