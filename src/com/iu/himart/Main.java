@@ -16,7 +16,9 @@ public class Main {
 		
 		Client client = new Client();
 		client.buy(computer);
+		System.out.println("========================");
 		client.buy(phone);
+		System.out.println("========================");
 		client.buy(tv);
 	}
 

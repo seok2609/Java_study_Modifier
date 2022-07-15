@@ -10,26 +10,26 @@ public class Client {
 		this.setPoint(10);
 	}
 	
-	public void buy(Tv tv) {
-		this.money = this.money - tv.getPrice();
-		this.point = this.point + tv.getPoint();
+	public void buy(Same same) {
+		this.money = this.money - same.getPrice();
+		this.point = this.point + same.getPoint();
 		System.out.println("잔액 : " + this.money);
-		System.out.println("Point : " + this.point);
+		System.out.println("현재 Point : " + this.point);
 	}
 	
-	public void buy(Computer computer) {
-		this.money = this.money - computer.getPrice();
-		this.point = this.point + computer.getPoint();
-		System.out.println("잔액 : " + this.money);
-		System.out.println("Point : " + this.point);
-	}
-	
-	public void buy(Phone phone) {
-		this.money = this.money - phone.getPrice();
-		this.point = this.point + phone.getPoint();
-		System.out.println("잔액 : " + this.money);
-		System.out.println("Point : " + this.point);
-	}
+//	public void buy(Computer computer) {
+//		this.money = this.money - computer.getPrice();
+//		this.point = this.point + computer.getPoint();
+//		System.out.println("잔액 : " + this.money);
+//		System.out.println("현재 Point : " + this.point);
+//	}
+//	
+//	public void buy(Phone phone) {
+//		this.money = this.money - phone.getPrice();
+//		this.point = this.point + phone.getPoint();
+//		System.out.println("잔액 : " + this.money);
+//		System.out.println("현재 Point : " + this.point);
+//	}
 	
 	
 	public int getMoney() {
