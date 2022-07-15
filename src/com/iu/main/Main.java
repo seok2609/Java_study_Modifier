@@ -4,6 +4,7 @@ import com.iu.animal.Cat;
 import com.iu.animal.Human;
 import com.iu.animal.Zoo;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -17,6 +18,8 @@ public class Main {
 		//--------------------------
 		System.out.println(Zoo.title);
 		Zoo.info();
-
+		
+		Zoo zoo = new Zoo();
+		zoo.price=10000;
 	}
 }
